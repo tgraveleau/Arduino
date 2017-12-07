@@ -7,18 +7,18 @@ SOMMAIRE:
 ## Kamisado connecté
 
 Le kamisado est un jeu de plateau stratégique 1v1 dont voici [les règles](http://www.yucata.de/en/Rules/Kamisado).
-L'idée est de faire le plateau de jeu avec autant de capteurs que de cases. Chaque capteur va détecter si une tour est présente sur la case. Le plateau sera rendu en 3D sur un smartphone et permettra de visionner le plateau et les mouvements de tours via des animations.
+L'idée est de faire un plateau de jeu rempli de led et contenant autant de capteurs que de cases. Chaque capteur va détecter si une tour est présente sur la case. Le plateau sera rendu en 3D sur un smartphone et permettra de visionner les mouvements des tours via des animations, les messages envoyés par le moteur, le score etc ...
 
 ### Plateau de jeu
 * Composé d'autant de capteurs que de cases
 * Composé de leds de couleurs pour faire les cases du plateau
 * Lorsqu'on lève une tour du plateau, toutes les leds s'éteignent sauf celles des cases dont on peut se rendre
-* Lorsqu'on pose une tour sur une mauvaise case, les leds s'allument en rouge et le mouvement est refusé
+* Lorsqu'on pose une tour sur une mauvaise case, les leds s'allument en rouge, le mouvement est refusé et le jeu arrêté
 * Lorsqu'un joueur gagne, les leds s'illuminent de façon aléatoire
 
 ### Application
-* Pourrait faire des animations
-* Permet de lancer la partie en donnant des noms de joueurs
+* Animations (v2)
+* Permet de lancer la partie en initialisant les noms de joueurs
 * Affiche les messages type "mauvais déplacement" ou "X a gagné"
 * Affiche les points
 
@@ -34,5 +34,5 @@ On met des capteurs, on pose les cartes dessus, sur une application, on voit le 
 
 * Détection de la carte
 * Grosse partie de visuel avec des animations sur les monstres (invocation, attaque, etc)
-* Led qui clignote quand un joueur perd des LP
+* Leds qui clignotent quand un joueur perd des LP
 * Ce genre de conneries
