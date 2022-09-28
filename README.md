@@ -2,7 +2,6 @@
 
 SOMMAIRE:
 * [Kamisado connecté](#kamisado-connect%C3%A9)
-* [Plateau Yu-Gi-Oh](#plateau-yu-gi-oh)
 
 ## Kamisado connecté
 
@@ -26,12 +25,3 @@ L'idée est de faire un plateau de jeu rempli de led et contenant autant de capt
 * Compte les points
 * Renvoie les positions où les tours peuvent se rendre
 * Envoie les messages
-
-## Plateau Yu-Gi-Oh
-
-On met des capteurs, on pose les cartes dessus, sur une application, on voit le monstre qui apparait.
-
-* Détection de la carte
-* Grosse partie de visuel avec des animations sur les monstres (invocation, attaque, etc)
-* Leds qui clignotent quand un joueur perd des LP
-* Ce genre de conneries
